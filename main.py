@@ -11,8 +11,8 @@ while True:
     APPS = "apps@groundwave.se"
 
 
-    MY_LAT = 15.2151181
-    MY_LONG = 59.2747287
+    MY_LAT = 59.2747287
+    MY_LONG = 15.2151181
     response = requests.get(url="http://api.open-notify.org/iss-now.json")
 
     position = response.json()["iss_position"]
